@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".Add_Activity">
+
+    <EditText
+        android:id="@+id/shopnameEdtTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:ems="10"
+        android:hint="Shop name"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.542"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/cusnameEdtTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:textColorHint="@color/white"
+        android:hint="Customer's name"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/shopnameEdtTxt"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/shopnameEdtTxt"
+        app:layout_constraintTop_toBottomOf="@+id/shopnameEdtTxt" />
+
+    <EditText
+        android:id="@+id/phnnumEdtTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Phone number"
+        android:textColorHint="@color/white"
+        android:inputType="phone"
+        android:minHeight="48dp"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/cusnameEdtTxt"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/cusnameEdtTxt"
+        app:layout_constraintTop_toBottomOf="@+id/cusnameEdtTxt" />
+
+    <EditText
+        android:id="@+id/dateEdtTxt"
+        android:textColorHint="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Date"
+        android:inputType="date"
+        android:minHeight="48dp"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/phnnumEdtTxt"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/phnnumEdtTxt"
+        app:layout_constraintTop_toBottomOf="@+id/phnnumEdtTxt" />
+
+    <EditText
+        android:id="@+id/itemEdtTxt"
+        android:textColorHint="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Item name"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColor="#FBFBFB"
+        app:layout_constraintEnd_toEndOf="@+id/dateEdtTxt"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/dateEdtTxt"
+        app:layout_constraintTop_toBottomOf="@+id/dateEdtTxt" />
+
+    <EditText
+        android:id="@+id/serialEdtTxt"
+        android:textColorHint="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="S/N number"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/itemEdtTxt"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/itemEdtTxt"
+        app:layout_constraintTop_toBottomOf="@+id/itemEdtTxt" />
+
+
+
+    <EditText
+        android:id="@+id/warrantyEdtTxt"
+        android:textColorHint="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Warranty period"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="@+id/serialEdtTxt"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/serialEdtTxt"
+        app:layout_constraintTop_toBottomOf="@+id/serialEdtTxt" />
+
+    <EditText
+        android:id="@+id/priceEdtTxt"
+        android:textColorHint="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Price"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/warrantyEdtTxt"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/warrantyEdtTxt"
+        app:layout_constraintTop_toBottomOf="@+id/warrantyEdtTxt" />
+
+    <Button
+        android:id="@+id/addNowBtn"
+        android:layout_width="120dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/ic_baseline_note_add_24"
+        android:text="Add"
+        android:textColor="#FB0808"
+        android:textColorHighlight="#000000"
+        android:textColorHint="#000000"
+        android:textColorLink="#000000"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/priceEdtTxt"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="@+id/priceEdtTxt"
+        app:layout_constraintTop_toBottomOf="@+id/priceEdtTxt" />
+
+    <Button
+        android:id="@+id/showNowBtn"
+        android:layout_width="121dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="16dp"
+        android:text="Show"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:textColor="#FB0808"
+        android:textColorHighlight="#000000"
+        android:textColorHint="#000000"
+        android:textColorLink="#000000"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/ic_baseline_preview_24"
+        app:layout_constraintEnd_toEndOf="@+id/addNowBtn"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/addNowBtn"
+        app:layout_constraintTop_toBottomOf="@+id/addNowBtn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

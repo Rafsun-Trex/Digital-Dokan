@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "747620141774",
+    "project_id": "digital-dokan-2ce75",
+    "storage_bucket": "digital-dokan-2ce75.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:747620141774:android:31a4be3028b580134ede9f",
+        "android_client_info": {
+          "package_name": "com.example.digitaldokan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "747620141774-k2e4s8cec6bmjpuof5d2nut59q70hril.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcosGTB9FS5EStcpwRDmDpiBFOytKqZ28"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "747620141774-k2e4s8cec6bmjpuof5d2nut59q70hril.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

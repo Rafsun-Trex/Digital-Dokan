@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".ActingActivity">
+
+
+    <Button
+        android:id="@+id/shopownerBtn"
+        android:layout_width="275dp"
+        android:layout_height="65dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Shop owner"
+        android:textColor="#FB0808"
+        android:textColorHighlight="#000000"
+        android:textColorHint="#000000"
+        android:textColorLink="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/ic_baseline_admin_panel_settings_24"
+        app:layout_constraintBottom_toTopOf="@+id/CustomerBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.791"
+
+        />
+
+    <Button
+        android:id="@+id/CustomerBtn"
+        android:layout_width="275dp"
+        android:layout_height="65dp"
+        android:layout_marginBottom="260dp"
+        android:backgroundTint="#FFFFFF"
+        android:drawableLeft="@drawable/ic_baseline_shopping_bag_24"
+        android:text="Customer"
+        android:textColor="#0040FF"
+        android:textColorHighlight="#000000"
+        android:textColorHint="#000000"
+        android:textColorLink="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

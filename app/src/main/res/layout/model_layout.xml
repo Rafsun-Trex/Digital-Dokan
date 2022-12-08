@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/gradient"
+    app:contentPadding="5dp"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="3dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="393dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Warranty : "
+            />
+
+        <TextView
+            android:id="@+id/shpName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shop name"
+            android:textSize="18sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shop name : "
+            />
+
+        <TextView
+            android:id="@+id/cusName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Customer's name"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Item : "
+            />
+
+        <TextView
+            android:id="@+id/phnNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone number"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Customer's name : "
+            />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date : "
+            />
+
+        <TextView
+            android:id="@+id/itemName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Item"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="S/N : "
+            />
+
+        <TextView
+            android:id="@+id/serialNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Serial Number"
+            android:textSize="18sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Random ID : "
+            />
+
+        <TextView
+            android:id="@+id/warranty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Warranty"
+            android:textSize="18sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Price : "
+            />
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Price"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".ShopWork">
+
+    <Button
+        android:id="@+id/addBtn"
+        android:layout_width="144dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="228dp"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/add_info24"
+        android:text="Add"
+        android:textColor="#FB0808"
+        android:textColorHighlight="#000000"
+        android:textColorHint="#000000"
+        android:textColorLink="#000000"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/updateBtn"
+        android:layout_width="144dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="48dp"
+        android:text="Update"
+        android:textStyle="bold"
+        android:textColor="#FB0808"
+        android:textColorHighlight="#000000"
+        android:textColorHint="#000000"
+        android:textColorLink="#000000"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/ic_baseline_update_24"
+        app:layout_constraintEnd_toEndOf="@+id/addBtn"
+        app:layout_constraintStart_toStartOf="@+id/addBtn"
+        app:layout_constraintTop_toBottomOf="@+id/addBtn" />
+
+    <Button
+        android:id="@+id/searchBtn"
+        android:layout_width="144dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="48dp"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/personsearch"
+        android:text="Search"
+        android:textColor="#FB0808"
+        android:textColorHighlight="#000000"
+        android:textColorHint="#000000"
+        android:textColorLink="#000000"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/updateBtn"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/updateBtn"
+        app:layout_constraintTop_toBottomOf="@+id/updateBtn" />
+</androidx.constraintlayout.widget.ConstraintLayout>
